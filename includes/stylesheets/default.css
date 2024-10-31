@@ -1,0 +1,250 @@
+/*
+Stylesheet: Peers.me plugin
+Author: Daniël Steginga
+*/
+
+
+#peers-me-widget ul li {
+	list-style: square inside;
+	margin:0px;
+	padding:0px;
+	font-weight: bold;
+}
+
+/*WIDGET*/
+
+#peers-me-widget{
+	display: block;
+	background: #FFFFFF;
+	margin: 0 0 20px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#peers-me-widget-title{
+	display: block;
+	border-bottom: 1px dotted;
+	height: 24px;
+	margin-bottom: 5px;
+}
+
+#peers-me-widget-link{
+	display: block;
+	border-top: 1px dotted;
+	height: 24px;
+	margin-top: 5px;
+	text-align: right;
+}
+
+
+#peers-me-widget .name{
+	margin-bottom: 5px;
+}
+
+#peers-me-widget a{
+	text-decoration: none;
+}
+
+#peers-me-widget hr{
+	border: 0;
+}
+
+
+
+.psme-content{
+	display: block;
+}
+
+.psme-title{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.psme-label{
+    background-color: #339900;
+    color: white;
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-right: 5px;
+    padding: 0 3px 1px;
+}
+.psme-label-blue{
+    background-color: #4A6885;
+    color: white;
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-right: 5px;
+    padding: 0 3px 1px;
+}
+
+.psme-publisher{
+	display: block;
+	height: 40px;
+	margin-bottom: 15px;
+}
+
+.psme-publisher span {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.psme-publisher a{
+	font-weight: bold;
+}
+
+.psme-avatar-icon, .psme-avatar-icon.psme-small {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAAAAA;
+    display: inline;
+    float: left;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    width: 40px;
+}
+
+.psme-avatar-icon.psme-large {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAAAAA;
+    display: inline;
+    float: left;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    width: 100px;
+}
+
+.psme-read-more-line {
+    display: block;
+    border-bottom: 1px dotted #AAAAAA;
+    overflow: hidden;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.psme-read-more-line a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.psme-index-item{
+    display: block;
+	padding: 5px;
+	height: 60px;
+}
+
+/* PROFILE PAGE */
+
+#peers-profile{
+	display: block;
+	height: 120px;
+/*	overflow: auto;*/
+}
+
+h2{
+	margin-top: 10px;
+}
+
+#peers-profile-name, #peers-profile h1{
+/*	margin-top: 10px;*/
+	clear: none;
+	line-height: 1.0em;
+	margin: 0;
+}
+
+#peers-profile .psme-large{
+	margin-right: 10px;
+}
+
+#peers-profile li{
+	display: inline;
+}
+
+#peers-profile ul{
+	margin-bottom: 5px;
+}
+
+#peers-profile .psme-icon {
+    display: inline;
+    float: left;
+	margin-right: 5px;
+}
+
+#psme-tabmenu {
+    display: block;
+    background-color: #C4C4C4;
+    color: #FFFFFF;
+    height: 18px;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+#psme-tabmenu .psme-tabmenu-content {
+    float: left;
+    margin-left: 10px;
+}
+
+#psme-tabmenu .psme-tabmenu-content a {
+    color: white;
+    font-size: 1.1em;
+    margin-right: 10px;
+    padding: 5px 10px 10px;
+    text-decoration: none;
+}
+
+#psme-tabmenu .psme-tabmenu-content a.current, #psme-tabmenu .psme-tabmenu-content a:hover {
+    background-color: white;
+    color: #666666;
+    text-decoration: none;
+}
+
+#psme-content .inside fieldset {
+    padding: 0;
+}
+
+#peers-me fieldset {
+    border: 1px solid #CCCCCC;
+    margin: 0 0 1.5em;
+}
+
+#peers-me legend {
+    margin: 0 10px;
+    padding: 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#peers-me .psme-inside {
+    display: block;
+    padding: 20px;
+}
+
+#peers-me .psme-p {
+    display: block;
+}
+
+#peers-me label {
+    display: block;
+    float: left;
+    width: 30%;
+    font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#peers-me .psme-meta-field {
+    float: left;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.psme-content .psme-text img{
+	padding: 0;
+	margin: 5px;
+}
+
+.psme-content .psme-text{
+	overflow: hidden
+}
